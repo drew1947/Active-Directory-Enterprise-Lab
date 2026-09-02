@@ -9,3 +9,13 @@ I built this lab to get hands-on experience with the type of work I would be doi
 ## Active Directory
 
 I used Active Directory to practice common account management and support tasks. This included resetting passwords, unlocking accounts, provisioning new users, managing access, and disabling accounts when they were no longer needed.
+
+## Organizational Units and Security Groups
+
+I created an OU structure for the BWA Stay Hotel to organize users and computers based on their departments and roles. The environment includes Accounting, Front Desk, Housekeeping, Human Resources, IT, Maintenance, Management, and Security.
+
+I also created security groups for role-based access and separate OUs for computers and disabled user accounts. This helped me practice keeping Active Directory organized while managing access based on a user's job responsibilities.
+
+## Help Desk Ticketing
+
+I used Jira Service Management and Spiceworks to work through simulated help desk tickets based on common IT support requests. I practiced reviewing the issue, making the needed changes in Active Directory, testing my work, and then updating the ticket based on the result.
