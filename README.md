@@ -100,3 +100,14 @@ These situations helped me get more comfortable with troubleshooting instead of 
 - Troubleshooting and verification
 - VirtualBox virtualization
 
+## What I Learned
+
+Building this lab helped me understand how different parts of an IT environment work together instead of looking at each tool separately.
+
+I got more comfortable managing users, groups, permissions, and Organizational Units in Active Directory, while also testing changes from a Windows 11 client.
+
+I also learned that troubleshooting is a major part of the work. When something did not work correctly, I had to check the configuration, review what I changed, test possible fixes, and verify the result.
+
+Working with PowerShell also showed me that I need to understand how commands are structured instead of only copying and pasting them. I am continuing to build that skill so I can complete more administrative tasks from the command line.
+
+Using Jira Service Management and Spiceworks helped connect the technical work to a help desk workflow by giving me practice handling a request from the initial ticket through testing and resolution.
