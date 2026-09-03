@@ -18,6 +18,52 @@ I created an OU structure for the BWA Stay Hotel to organize users and computers
 
 I also created security groups for role-based access and separate OUs for computers and disabled user accounts. This helped me practice keeping Active Directory organized while managing access based on a user's job responsibilities.
 
+> Screenshot evidence: BWA Stay Hotel OU structure and security groups
+
 ## Help Desk Ticketing
 
 I used Jira Service Management and Spiceworks to work through simulated help desk tickets based on common IT support requests. I practiced reviewing the issue, making the needed changes in Active Directory, testing my work, and then updating the ticket based on the result.
+
+## PowerShell Administration
+
+I used PowerShell alongside Active Directory Users and Computers to perform and verify administrative tasks. Instead of relying only on the graphical interface, I practiced using Active Directory cmdlets to view and manage the environment.
+
+Some of the tasks I practiced included:
+
+- Viewing Organizational Units
+- Creating new Organizational Units
+- Verifying changes made in Active Directory
+- Viewing users and groups
+- Learning how PowerShell commands are structured using cmdlets, parameters, and values
+
+I am continuing to build my PowerShell skills so I can perform more Active Directory and IAM tasks through automation instead of relying only on the GUI.
+
+> Evidence to add: PowerShell commands and output from the Active Directory lab
+> Evidence to add: Jira Service Management and Spiceworks ticket screenshots
+>
+> ## Troubleshooting
+
+Throughout the lab, I ran into different issues that required me to slow down, check my configuration, and figure out what was causing the problem.
+
+Some examples included troubleshooting PowerShell command errors, correcting Active Directory changes, and working through login and connectivity issues between the server and Windows 11 client.
+
+These situations helped me get more comfortable with troubleshooting instead of only following steps when everything works correctly.
+
+> Evidence to add: Troubleshooting screenshots and short case studies
+>
+> ## Skills Demonstrated
+
+- Active Directory user and account management
+- Organizational Units and security groups
+- Password resets and account unlocking
+- User provisioning and account disabling
+- Role-based access and permissions
+- Windows Server 2025 administration
+- Windows 11 domain client testing
+- Help desk ticket workflow
+- Jira Service Management
+- Spiceworks
+- PowerShell administration
+- Troubleshooting and verification
+- VirtualBox virtualization
+
