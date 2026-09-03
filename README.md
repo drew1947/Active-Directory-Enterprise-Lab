@@ -24,6 +24,8 @@ I also created security groups for role-based access and separate OUs for comput
 
 I used Jira Service Management and Spiceworks to work through simulated help desk tickets based on common IT support requests. I practiced reviewing the issue, making the needed changes in Active Directory, testing my work, and then updating the ticket based on the result.
 
+![BWA Stay Hotel Help Desk Ticket Workflow](FEDE2149-018F-4AD4-9CD8-84CE8420748D.png)
+
 ## PowerShell Administration
 
 I used PowerShell alongside Active Directory Users and Computers to perform and verify administrative tasks. Instead of relying only on the graphical interface, I practiced using Active Directory cmdlets to view and manage the environment.
@@ -71,6 +73,7 @@ This gave me hands-on experience creating and applying Group Policy while also t
 | VirtualBox | Created and ran the virtual lab environment |
 | DNS | Supported domain name resolution within the AD environment |
 | IIS | Configured and tested web services within the lab |
+
 > ## Troubleshooting
 
 Throughout the lab, I ran into different issues that required me to slow down, check my configuration, and figure out what was causing the problem.
