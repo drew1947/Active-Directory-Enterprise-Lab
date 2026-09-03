@@ -5,6 +5,8 @@ I built this lab to get hands-on experience with the type of work I would be doi
 - **Windows Server 2025** – Used as the server for the Active Directory environment.
 - **Windows 11** – Used as the client machine to test user logins, permissions, and changes made in Active Directory.
 - **VirtualBox** – Used as the hypervisor to create and run the virtual machines.
+- 
+<img width="1536" height="1024" alt="D04076E3-E446-4B9F-981F-1CC3A576D39A" src="https://github.com/user-attachments/assets/dd975819-50c6-438d-8f99-98f3106b9294" />
 
 ## Active Directory
 
