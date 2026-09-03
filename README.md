@@ -40,7 +40,37 @@ I am continuing to build my PowerShell skills so I can perform more Active Direc
 
 > Evidence to add: PowerShell commands and output from the Active Directory lab
 > Evidence to add: Jira Service Management and Spiceworks ticket screenshots
+
+## File and Access Management
+
+I practiced managing access to shared resources based on a user's department and job responsibilities. I created shared folders for different departments, assigned permissions, and tested access from the Windows 11 client.
+
+This helped me understand how Active Directory security groups can be used with file permissions so access can be managed by role instead of giving permissions to users individually.
+
+> Evidence to add: Shared folder permissions and mapped drive access from the Windows 11 client.
+
+## Group Policy
+
+I used Group Policy to practice managing settings for domain users and computers from a central location. One of the policies I worked with was deploying a company wallpaper to the Windows 11 client.
+
+This gave me hands-on experience creating and applying Group Policy while also troubleshooting when a policy did not apply or behave as expected.
+
+> Evidence to add: Group Policy configuration and successful policy application on the Windows 11 client.
 >
+> ## Tools and Technologies Used
+
+| Technology | How I Used It |
+|---|---|
+| Windows Server 2025 | Hosted the Active Directory domain and server services |
+| Active Directory Domain Services | Managed users, OUs, security groups, and accounts |
+| Windows 11 | Domain-joined client used for testing and verification |
+| PowerShell | Performed and verified Active Directory administrative tasks |
+| Group Policy | Practiced centrally managing domain user and computer settings |
+| Jira Service Management | Worked through simulated IT support tickets |
+| Spiceworks | Practiced help desk ticket management and support scenarios |
+| VirtualBox | Created and ran the virtual lab environment |
+| DNS | Supported domain name resolution within the AD environment |
+| IIS | Configured and tested web services within the lab |
 > ## Troubleshooting
 
 Throughout the lab, I ran into different issues that required me to slow down, check my configuration, and figure out what was causing the problem.
