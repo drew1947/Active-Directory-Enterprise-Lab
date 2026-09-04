@@ -20,7 +20,13 @@ For each ticket, I followed the same general process:
 
 ![BWA Stay Hotel help desk ticket workflow](../diagrams/help-desk-ticket-workflow.svg)
 
-The individual case studies will show the real ticket, the work I completed, and how I checked the result.
+The individual case studies show the problem, the work I completed, and how I checked the result.
+
+## Ticket Case Studies
+
+[Department Folder Permission Troubleshooting](department-folder-permissions.md)
+
+I found department groups inheriting access to folders they did not need. I corrected the main folder, department folder, and share permissions. The Windows 11 access test is still pending.
 
 ## Types of Tickets I Practiced
 
