@@ -15,6 +15,8 @@ The purpose of this project is to demonstrate practical experience—not just th
 | VirtualBox | Provides the virtualized lab environment |
 | lab.local | Active Directory domain used by the BWA Stay Hotel environment |
 
+![BWA Stay Hotel lab architecture](diagrams/lab-architecture.svg)
+
 ![BWA Stay Hotel lab environment](screenshots/lab-environment.png)
 
 ## Active Directory Administration
@@ -35,6 +37,8 @@ I created an Organizational Unit structure for BWA Stay Hotel based on its depar
 
 I also created role-based security groups and separate Organizational Units for computers and disabled accounts. This structure allows access to be managed according to job responsibilities instead of assigning permissions directly to individual users.
 
+![BWA Stay Hotel OU and role-based access model](diagrams/ou-role-based-access.svg)
+
 ![BWA Stay Hotel OU structure and security groups](screenshots/ad-ou-structure.png)
 
 ## Help Desk Ticketing
@@ -47,7 +51,7 @@ I used Jira Service Management and Spiceworks to practice handling simulated sup
 4. Testing and verifying the result.
 5. Updating the ticket with the action taken and its status.
 
-![BWA Stay Hotel help desk ticket workflow](screenshots/help-desk-ticket-workflow.png)
+![BWA Stay Hotel help desk ticket workflow](diagrams/help-desk-ticket-workflow.svg)
 
 [View the full Help Desk Ticket Lab](help-desk-tickets/README.md)
 
@@ -85,6 +89,8 @@ Problems encountered during the lab required me to inspect configurations, isola
 - File-share and permission access
 
 These issues strengthened my ability to troubleshoot methodically instead of relying on steps that only work when the environment is already configured correctly.
+
+![BWA Stay Hotel troubleshooting process](diagrams/troubleshooting-process.svg)
 
 ## Tools and Technologies
 
