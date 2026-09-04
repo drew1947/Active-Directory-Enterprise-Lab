@@ -18,7 +18,7 @@
 <text x="895" y="298" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#334155">Joined to lab.local</text>
 <text x="895" y="344" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#475569">Domain login and access testing</text>
 <text x="895" y="378" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#475569">Policy and permission verification</text>
-<text x="895" y="412" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#475569">Ticket-resolution testing</text>
+<text x="895" y="412" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#475569">Ticket resolution testing</text>
 <path d="M510 300H678" stroke="#64748b" stroke-width="5" fill="none" marker-end="url(#a)"/>
 <path d="M700 390H532" stroke="#64748b" stroke-width="5" fill="none" marker-end="url(#a)"/>
 <text x="605" y="278" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#475569">Authentication • DNS • Policies • Shares</text>
