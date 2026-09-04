@@ -26,6 +26,8 @@ The individual case studies show the problem, the work I completed, and how I ch
 
 [Department Folder Permission Troubleshooting](department-folder-permissions.md)
 
+[Password Reset for Fabien Pierre](password-reset-fabien-pierre.md)
+
 I found department groups inheriting access to folders they did not need. I corrected the main folder, department folder, and share permissions. The Windows 11 access test is still pending.
 
 ## Types of Tickets I Practiced
