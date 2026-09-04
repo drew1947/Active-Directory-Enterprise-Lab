@@ -79,6 +79,10 @@ I am still building my PowerShell skills because I want to understand the comman
 
 ![PowerShell OU creation and verification](screenshots/powershell-ou-verification.png)
 
+I also used PowerShell to check the active domain password and lockout settings after updating Group Policy.
+
+![PowerShell domain password policy verification](screenshots/powershell/domain-password-policy.png)
+
 ## File and Access Management
 
 I practiced creating shared folders for different departments, assigning permissions, and checking access. This helped me understand how security groups work with share and NTFS permissions.
@@ -101,7 +105,23 @@ I also reviewed the account lockout policy. It locks an account after 5 failed a
 
 ![Account lockout policy](screenshots/group-policy/account-lockout-policy.png)
 
+I backed up the Group Policy Objects so the settings can be restored if a policy is changed or deleted.
+
+![Group Policy backup completed](screenshots/group-policy/gpo-backup.png)
+
 I also used Group Policy to manage settings for domain users and computers. One of the policies I worked on was a company wallpaper for the Windows 11 client. When it did not apply correctly, I had to go back through the settings and troubleshoot it.
+
+## DNS Configuration
+
+I used DNS Manager to review the records in the lab.local zone. The zone includes records for the domain controller, Windows client, and internal website.
+
+![DNS records for lab.local](screenshots/dns/lab-local-zone.png)
+
+## Security Auditing
+
+I configured the domain controller to record successful and failed logins, credential checks, user account changes, and security group changes.
+
+[View my Security Auditing documentation](documentation/security-auditing.md)
 
 ## Troubleshooting
 
