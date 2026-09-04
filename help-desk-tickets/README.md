@@ -18,7 +18,11 @@ For each ticket, I worked through the same basic process:
 6. Update the ticket with what I did.
 7. Verify the issue was resolved before closing it.
 
-![BWA Stay Hotel help desk ticket workflow](../screenshots/help-desk-ticket-workflow.png)
+![BWA Stay Hotel help desk ticket workflow](../diagrams/help-desk-ticket-workflow.svg)
+
+### Ticket Workflow Example
+
+The graphic shows the process I followed. The individual case studies will use actual ticket screenshots and lab evidence to show what happened in each request.
 
 ## Types of Tickets Practiced
 
