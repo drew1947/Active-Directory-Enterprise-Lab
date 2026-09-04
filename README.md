@@ -19,6 +19,10 @@ The purpose of this project is to demonstrate practical experience—not just th
 
 ![BWA Stay Hotel lab environment](screenshots/lab-environment.png)
 
+The Server Manager dashboard shows the server roles and services used to support the lab.
+
+![Windows Server Manager dashboard](screenshots/server-manager-dashboard.png)
+
 ## Active Directory Administration
 
 I used Active Directory Users and Computers to practice common account-management and support tasks, including:
@@ -31,6 +35,10 @@ I used Active Directory Users and Computers to practice common account-managemen
 - Disabling accounts
 - Verifying administrative changes
 
+Disabled accounts are kept in a separate OU so they can be retained for records without remaining active in the environment.
+
+![Disabled user accounts in Active Directory](screenshots/disabled-users-ou.png)
+
 ## Organizational Units and Security Groups
 
 I created an Organizational Unit structure for BWA Stay Hotel based on its departments and administrative needs. The environment includes Accounting, Front Desk, Housekeeping, Human Resources, IT, Maintenance, Management, and Security.
@@ -40,6 +48,10 @@ I also created role-based security groups and separate Organizational Units for 
 ![BWA Stay Hotel OU and role-based access model](diagrams/ou-role-based-access.svg)
 
 ![BWA Stay Hotel OU structure and security groups](screenshots/ad-ou-structure.png)
+
+I used department security groups to manage access according to job responsibilities.
+
+![Department security-group membership](screenshots/department-group-membership.png)
 
 ## Help Desk Ticketing
 
