@@ -83,6 +83,10 @@ I am still building my PowerShell skills because I want to understand the comman
 
 I practiced creating shared folders for different departments, assigning permissions, and checking access. This helped me understand how security groups work with share and NTFS permissions.
 
+I also found and corrected a permission problem that gave departments access to folders they did not need.
+
+[View the Department Folder Permission Troubleshooting case](help-desk-tickets/department-folder-permissions.md)
+
 ## Group Policy
 
 I used Group Policy to manage settings for domain users and computers. One of the policies I worked on was a company wallpaper for the Windows 11 client. When it did not apply correctly, I had to go back through the settings and troubleshoot it.
