@@ -1,4 +1,4 @@
-# Password Reset for Fabien Pierre
+# Password Reset for Fabien P.
 
 This case uses a fictional employee account from my BWA Stay Hotel home lab.
 
@@ -8,13 +8,13 @@ BSH 21
 
 ## Request
 
-Fabien Pierre could not sign in because he did not remember his current password. The request was marked High priority and moved to In Progress before I started working on the account.
+Fabien P. could not sign in because he did not remember his current password. The request was marked High priority and moved to In Progress before I started working on the account.
 
 ![Password reset request](../screenshots/help-desk/password-reset-fabien/request.png)
 
 ## What I Checked
 
-I located Fabien Pierre in Active Directory Users and Computers and confirmed I was working with the correct lab account.
+I located Fabien P. in Active Directory Users and Computers and confirmed I was working with the correct lab account.
 
 ## Action Taken
 
