@@ -2,83 +2,80 @@
 
 ## Overview
 
-I created this part of the project to practice handling support requests from beginning to end instead of only making changes in Active Directory.
+I created this part of the project to practice handling support requests from the time they come in until they are resolved.
 
-The tickets are based on situations that could happen in a real business environment at BWA Stay Hotel. I used Jira Service Management and Spiceworks to keep track of each request, the work I completed, and the final result.
+The tickets are based on problems that could happen at BWA Stay Hotel. I used Jira Service Management and Spiceworks to keep track of the requests, the work I did, and the final result.
 
-## My Ticket Process
+## How I Worked Through Tickets
 
-For each ticket, I worked through the same basic process:
+For each ticket, I followed the same general process:
 
-1. Read the request and identify the actual problem.
-2. Check the affected user, computer, group, or resource.
-3. Investigate the configuration before making changes.
-4. Complete the needed work in Active Directory, PowerShell, Group Policy, or Windows Server.
+1. Read the request and figure out what the user needed.
+2. Check the affected account, computer, group, or resource.
+3. Look at the current setup before changing anything.
+4. Make the needed change in Active Directory, PowerShell, Group Policy, or Windows Server.
 5. Test the change from the Windows 11 client when needed.
-6. Update the ticket with what I did.
-7. Verify the issue was resolved before closing it.
+6. Add notes explaining what I did.
+7. Make sure the issue was fixed before closing the ticket.
 
 ![BWA Stay Hotel help desk ticket workflow](../diagrams/help-desk-ticket-workflow.svg)
 
-### Ticket Workflow Example
+The individual case studies will show the real ticket, the work I completed, and how I checked the result.
 
-The graphic shows the process I followed. The individual case studies will use actual ticket screenshots and lab evidence to show what happened in each request.
-
-## Types of Tickets Practiced
+## Types of Tickets I Practiced
 
 ### Account Support
 
-- Password resets
-- Locked account troubleshooting
-- Disabled account review
-- Login problems
+* Password resets
+* Locked accounts
+* Disabled accounts
+* Login problems
 
 ### User Administration
 
-- New-user provisioning
-- Department or role changes
-- Security-group membership updates
-- Employee offboarding
+* Setting up new users
+* Department and role changes
+* Security group changes
+* Employee offboarding
 
 ### Access Support
 
-- Department shared-folder access
-- Mapped-drive problems
-- File and NTFS permission troubleshooting
-- Removing access that was no longer required
+* Department folder access
+* Mapped drive problems
+* File and NTFS permissions
+* Removing access that was no longer needed
 
 ### Windows and Domain Support
 
-- Domain login troubleshooting
-- Group Policy application problems
-- DNS and connectivity checks
-- Windows 11 client verification
+* Domain login problems
+* Group Policy problems
+* DNS and connection checks
+* Windows 11 testing
 
-## What I Document for Each Ticket
+## What I Include in a Ticket Case Study
 
-A completed ticket case study includes:
+Each completed case study will show:
 
-- The original request
-- The affected user or system
-- What I checked during the investigation
-- The cause of the issue
-- The action I took
-- Screenshots showing the work
-- How I tested the result
-- The final resolution entered in the ticket
+* The original request
+* The affected user or computer
+* What I checked
+* What caused the problem
+* What I changed
+* Screenshots of the work
+* How I tested the result
+* The final notes added to the ticket
 
-I use the established BWA Stay Hotel employee roster when creating tickets for existing users. New names are only introduced when the ticket is specifically for a new hire. This keeps the lab consistent and makes the support scenarios connect to the same business environment.
+I use the BWA Stay Hotel employee roster for tickets involving existing employees. I only add a new name when the ticket is for a new hire. This keeps all of the tickets connected to the same company and environment.
 
-## Skills This Lab Demonstrates
+## Skills I Practiced
 
-- Help desk ticket ownership
-- Active Directory account support
-- User provisioning and offboarding
-- Role-based access management
-- Security-group administration
-- Password and account-lockout support
-- File-permission troubleshooting
-- Group Policy troubleshooting
-- PowerShell verification
-- Testing and documenting resolutions
-- Communicating technical work clearly
+* Handling support tickets
+* Active Directory account support
+* Setting up and disabling users
+* Managing access through security groups
+* Password and account lockout support
+* Troubleshooting file permissions
+* Troubleshooting Group Policy
+* Checking changes with PowerShell
+* Testing solutions
+* Writing clear ticket notes
