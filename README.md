@@ -1,113 +1,124 @@
-# Active-Directory-Enterprise-Lab
-## Project overview
-I built this lab to get hands on experience with the type of work I would be doing in a real IT support environment. I wanted to practice managing users, groups, permissions, and Active Directory while also working through simulated help desk tickets and troubleshooting problems as they came up. The goal was to get more comfortable actually doing the work instead of only learning about it.
+# Active Directory Enterprise Lab
+
+## Project Overview
+
+I built this home lab to gain hands-on experience with the work performed in an IT support and Windows system administration environment. Using the fictional **BWA Stay Hotel** organization, I practiced managing users, groups, permissions, and Active Directory while working through simulated help desk requests and troubleshooting problems.
+
+The purpose of this project is to demonstrate practical experience—not just theoretical knowledge—with identity administration, access management, ticket handling, testing, and documentation.
+
 ## Lab Environment
-- **Windows Server 2025** – Used as the server for the Active Directory environment.
-- **Windows 11** – Used as the client machine to test user logins, permissions, and changes made in Active Directory.
-- **VirtualBox** – Used as the hypervisor to create and run the virtual machines.
- 
-![BWA Stay Hotel Lab Environment](D04076E3-E446-4B9F-981F-1CC3A576D39A.png)
 
-## Active Directory
+| Component | Purpose |
+|---|---|
+| Windows Server 2025 | Hosts Active Directory Domain Services, DNS, Group Policy, file services, and IIS |
+| Windows 11 | Domain-joined client used to test authentication, permissions, policies, and administrative changes |
+| VirtualBox | Provides the virtualized lab environment |
+| lab.local | Active Directory domain used by the BWA Stay Hotel environment |
 
-I used Active Directory to practice common account management and support tasks. This included resetting passwords, unlocking accounts, provisioning new users, managing access, and disabling accounts when they were no longer needed.
+![BWA Stay Hotel lab environment](screenshots/lab-environment.png)
+
+## Active Directory Administration
+
+I used Active Directory Users and Computers to practice common account-management and support tasks, including:
+
+- Provisioning user accounts
+- Resetting passwords
+- Unlocking accounts
+- Managing security-group membership
+- Updating access based on job responsibilities
+- Disabling accounts
+- Verifying administrative changes
 
 ## Organizational Units and Security Groups
 
-I created an OU structure for the BWA Stay Hotel to organize users and computers based on their departments and roles. The environment includes Accounting, Front Desk, Housekeeping, Human Resources, IT, Maintenance, Management, and Security.
+I created an Organizational Unit structure for BWA Stay Hotel based on its departments and administrative needs. The environment includes Accounting, Front Desk, Housekeeping, Human Resources, IT, Maintenance, Management, and Security.
 
-I also created security groups for role-based access and separate OUs for computers and disabled user accounts. This helped me practice keeping Active Directory organized while managing access based on a user's job responsibilities.
+I also created role-based security groups and separate Organizational Units for computers and disabled accounts. This structure allows access to be managed according to job responsibilities instead of assigning permissions directly to individual users.
 
-![BWA Stay Hotel OU structure and security groups](overview.png)
+![BWA Stay Hotel OU structure and security groups](screenshots/ad-ou-structure.png)
 
 ## Help Desk Ticketing
 
-I used Jira Service Management and Spiceworks to work through simulated help desk tickets based on common IT support requests. I practiced reviewing the issue, making the needed changes in Active Directory, testing my work, and then updating the ticket based on the result.
+I used Jira Service Management and Spiceworks to practice handling simulated support requests. My workflow included:
 
-![BWA Stay Hotel Help Desk Ticket Workflow](FEDE2149-018F-4AD4-9CD8-84CE8420748D.png)
+1. Reviewing the request and identifying the affected user or resource.
+2. Investigating the account, group, policy, or access configuration.
+3. Making the appropriate administrative change.
+4. Testing and verifying the result.
+5. Updating the ticket with the action taken and its status.
+
+![BWA Stay Hotel help desk ticket workflow](screenshots/help-desk-ticket-workflow.png)
 
 ## PowerShell Administration
 
-I used PowerShell alongside Active Directory Users and Computers to perform and verify administrative tasks. Instead of relying only on the graphical interface, I practiced using Active Directory cmdlets to view and manage the environment.
+I used PowerShell alongside Active Directory Users and Computers to perform and verify administrative tasks. This helped me begin moving beyond GUI-only administration and understand how commands are constructed using cmdlets, parameters, values, objects, and properties.
 
-Some of the tasks I practiced included:
+Tasks practiced include:
 
 - Viewing Organizational Units
-- Creating new Organizational Units
-- Verifying changes made in Active Directory
+- Creating Organizational Units
+- Verifying Active Directory changes
 - Viewing users and groups
-- Learning how PowerShell commands are structured using cmdlets, parameters, and values
+- Reading and constructing Active Directory commands
 
-I am continuing to build my PowerShell skills so I can perform more Active Directory and IAM tasks through automation instead of relying only on the GUI.
-
-![BWA Stay Hotel OU structure and security groups](powershell%20ou.png)
-> Evidence to add: Jira Service Management and Spiceworks ticket screenshots
+![PowerShell OU creation and verification](screenshots/powershell-ou-verification.png)
 
 ## File and Access Management
 
-I practiced managing access to shared resources based on a user's department and job responsibilities. I created shared folders for different departments, assigned permissions, and tested access from the Windows 11 client.
-
-This helped me understand how Active Directory security groups can be used with file permissions so access can be managed by role instead of giving permissions to users individually.
-
-> Evidence to add: Shared folder permissions and mapped drive access from the Windows 11 client.
+I practiced creating departmental shared folders, assigning permissions, and testing access from the Windows 11 client. This demonstrated how Active Directory security groups can be combined with share and NTFS permissions to support role-based access control.
 
 ## Group Policy
 
-I used Group Policy to practice managing settings for domain users and computers from a central location. One of the policies I worked with was deploying a company wallpaper to the Windows 11 client.
+I worked with Group Policy to centrally manage settings for domain users and computers. One exercise involved configuring a corporate wallpaper for the Windows 11 client and troubleshooting the policy when it did not apply as expected.
 
-This gave me hands-on experience creating and applying Group Policy while also troubleshooting when a policy did not apply or behave as expected.
+## Troubleshooting
 
-> Evidence to add: Group Policy configuration and successful policy application on the Windows 11 client.
->
-> ## Tools and Technologies Used
+Problems encountered during the lab required me to inspect configurations, isolate possible causes, test changes, and verify the outcome. Troubleshooting areas included:
+
+- PowerShell syntax and command errors
+- Active Directory configuration changes
+- Domain login problems
+- Network and DNS connectivity
+- Group Policy application
+- File-share and permission access
+
+These issues strengthened my ability to troubleshoot methodically instead of relying on steps that only work when the environment is already configured correctly.
+
+## Tools and Technologies
 
 | Technology | How I Used It |
 |---|---|
-| Windows Server 2025 | Hosted the Active Directory domain and server services |
-| Active Directory Domain Services | Managed users, OUs, security groups, and accounts |
-| Windows 11 | Domain-joined client used for testing and verification |
-| PowerShell | Performed and verified Active Directory administrative tasks |
-| Group Policy | Practiced centrally managing domain user and computer settings |
-| Jira Service Management | Worked through simulated IT support tickets |
-| Spiceworks | Practiced help desk ticket management and support scenarios |
-| VirtualBox | Created and ran the virtual lab environment |
-| DNS | Supported domain name resolution within the AD environment |
-| IIS | Configured and tested web services within the lab |
+| Windows Server 2025 | Hosted domain and server services |
+| Active Directory Domain Services | Managed users, OUs, groups, and accounts |
+| Windows 11 | Tested domain logins, permissions, and policies |
+| PowerShell | Performed and verified administrative tasks |
+| Group Policy | Centrally managed domain settings |
+| Jira Service Management | Tracked simulated IT support requests |
+| Spiceworks | Practiced help desk ticket management |
+| VirtualBox | Created and ran the virtual machines |
+| DNS | Supported domain name resolution |
+| IIS | Configured and tested internal web services |
 
-> ## Troubleshooting
+## Skills Demonstrated
 
-Throughout the lab, I ran into different issues that required me to slow down, check my configuration, and figure out what was causing the problem.
-
-Some examples included troubleshooting PowerShell command errors, correcting Active Directory changes, and working through login and connectivity issues between the server and Windows 11 client.
-
-These situations helped me get more comfortable with troubleshooting instead of only following steps when everything works correctly.
-
-> Evidence to add: Troubleshooting screenshots and short case studies
->
-> ## Skills Demonstrated
-
-- Active Directory user and account management
-- Organizational Units and security groups
+- Active Directory user and account administration
+- Organizational Unit and security-group design
 - Password resets and account unlocking
 - User provisioning and account disabling
-- Role-based access and permissions
-- Windows Server 2025 administration
-- Windows 11 domain client testing
+- Role-based access control
+- Windows Server administration
+- Windows domain-client testing
 - Help desk ticket workflow
-- Jira Service Management
-- Spiceworks
-- PowerShell administration
-- Troubleshooting and verification
-- VirtualBox virtualization
+- PowerShell fundamentals
+- Group Policy administration
+- File-share and permission management
+- DNS and connectivity troubleshooting
+- Technical verification and documentation
 
 ## What I Learned
 
-Building this lab helped me understand how different parts of an IT environment work together instead of looking at each tool separately.
+Building this lab helped me understand how identity, access, server administration, client testing, and help desk workflows operate together.
 
-I got more comfortable managing users, groups, permissions, and Organizational Units in Active Directory, while also testing changes from a Windows 11 client.
+I became more comfortable managing users, groups, permissions, and Organizational Units while verifying changes from a Windows 11 domain client. I also learned that troubleshooting requires checking configurations, reviewing recent changes, testing possible causes, and confirming that the final resolution works.
 
-I also learned that troubleshooting is a major part of the work. When something did not work correctly, I had to check the configuration, review what I changed, test possible fixes, and verify the result.
-
-Working with PowerShell also showed me that I need to understand how commands are structured instead of only copying and pasting them. I am continuing to build that skill so I can complete more administrative tasks from the command line.
-
-Using Jira Service Management and Spiceworks helped connect the technical work to a help desk workflow by giving me practice handling a request from the initial ticket through testing and resolution.
+PowerShell reinforced the importance of understanding command structure instead of relying on copied scripts. Jira Service Management and Spiceworks helped connect the technical work to a realistic support process from the initial request through testing and resolution.
