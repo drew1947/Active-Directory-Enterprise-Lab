@@ -49,6 +49,8 @@ I used Jira Service Management and Spiceworks to practice handling simulated sup
 
 ![BWA Stay Hotel help desk ticket workflow](screenshots/help-desk-ticket-workflow.png)
 
+[View the full Help Desk Ticket Lab](help-desk-tickets/README.md)
+
 ## PowerShell Administration
 
 I used PowerShell alongside Active Directory Users and Computers to perform and verify administrative tasks. This helped me begin moving beyond GUI-only administration and understand how commands are constructed using cmdlets, parameters, values, objects, and properties.
