@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
 <title id="title">BWA Stay Hotel Lab Architecture</title>
-<desc id="desc">VirtualBox hosts Windows Server 2025 and a domain-joined Windows 11 client. The server provides Active Directory, DNS, Group Policy, file services, and IIS.</desc>
+<desc id="desc">VirtualBox hosts Windows Server 2025 and a domain joined Windows 11 client. The server provides Active Directory, DNS, Group Policy, file services, and IIS.</desc>
 <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#64748b"/></marker></defs>
 <rect width="1200" height="620" rx="28" fill="#f8fafc"/>
 <text x="50" y="58" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#0f172a">BWA Stay Hotel Lab Architecture</text>
