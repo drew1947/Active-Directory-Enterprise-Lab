@@ -20,6 +20,10 @@ For each ticket, I followed the same general process:
 
 ![BWA Stay Hotel help desk ticket workflow](../diagrams/help-desk-ticket-workflow.svg)
 
+This is the Jira workflow I used to move requests through each stage.
+
+![Jira Service Management workflow](../screenshots/help-desk/jira-workflow.png)
+
 The individual case studies show the problem, the work I completed, and how I checked the result.
 
 ## Ticket Case Studies
