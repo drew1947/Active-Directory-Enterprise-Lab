@@ -18,7 +18,7 @@ I created an OU structure for the BWA Stay Hotel to organize users and computers
 
 I also created security groups for role-based access and separate OUs for computers and disabled user accounts. This helped me practice keeping Active Directory organized while managing access based on a user's job responsibilities.
 
-> Screenshot evidence: BWA Stay Hotel OU structure and security groups
+![BWA Stay Hotel OU structure and security groups](overview.png)
 
 ## Help Desk Ticketing
 
