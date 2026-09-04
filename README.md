@@ -89,7 +89,19 @@ I also found and corrected a permission problem that gave departments access to 
 
 ## Group Policy
 
-I used Group Policy to manage settings for domain users and computers. One of the policies I worked on was a company wallpaper for the Windows 11 client. When it did not apply correctly, I had to go back through the settings and troubleshoot it.
+I reviewed the password settings in the Default Domain Policy and found that the minimum password length was set to 7 characters.
+
+![Password policy before the change](screenshots/group-policy/password-policy-before.png)
+
+I changed the minimum password length to 12 characters. I kept password history at 24, password complexity enabled, and reversible encryption disabled.
+
+![Password policy after the change](screenshots/group-policy/password-policy-after.png)
+
+I also reviewed the account lockout policy. It locks an account after 5 failed attempts for 10 minutes, resets the counter after 10 minutes, and includes the Administrator account.
+
+![Account lockout policy](screenshots/group-policy/account-lockout-policy.png)
+
+I also used Group Policy to manage settings for domain users and computers. One of the policies I worked on was a company wallpaper for the Windows 11 client. When it did not apply correctly, I had to go back through the settings and troubleshoot it.
 
 ## Troubleshooting
 
