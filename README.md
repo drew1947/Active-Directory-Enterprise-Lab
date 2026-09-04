@@ -19,7 +19,7 @@ I created an OU structure for the BWA Stay Hotel to organize users and computers
 I also created security groups for role-based access and separate OUs for computers and disabled user accounts. This helped me practice keeping Active Directory organized while managing access based on a user's job responsibilities.
 
 ![BWA Stay Hotel OU structure and security groups](overview.png)
-![BWA Stay Hotel OU structure and security groups](powershell%20ou.png)
+
 ## Help Desk Ticketing
 
 I used Jira Service Management and Spiceworks to work through simulated help desk tickets based on common IT support requests. I practiced reviewing the issue, making the needed changes in Active Directory, testing my work, and then updating the ticket based on the result.
@@ -40,7 +40,7 @@ Some of the tasks I practiced included:
 
 I am continuing to build my PowerShell skills so I can perform more Active Directory and IAM tasks through automation instead of relying only on the GUI.
 
-> Evidence to add: PowerShell commands and output from the Active Directory lab
+![BWA Stay Hotel OU structure and security groups](powershell%20ou.png)
 > Evidence to add: Jira Service Management and Spiceworks ticket screenshots
 
 ## File and Access Management
