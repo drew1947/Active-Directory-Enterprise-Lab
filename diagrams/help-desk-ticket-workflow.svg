@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">BWA Stay Hotel Help Desk Ticket Workflow</title>
+<desc id="desc">A ticket moves from submission through review, investigation, action, verification, communication, and closure.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#64748b"/></marker></defs>
+<rect width="1200" height="760" rx="28" fill="#f8fafc"/>
+<text x="50" y="58" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#0f172a">Help Desk Ticket Workflow</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="400" y="95" width="400" height="78" rx="18" fill="#eff6ff" stroke="#2563eb" stroke-width="4"/><text x="600" y="143" font-size="24" font-weight="700" fill="#0f172a">1. Ticket Submitted</text>
+<rect x="400" y="215" width="400" height="78" rx="18" fill="#f5f3ff" stroke="#7c3aed" stroke-width="4"/><text x="600" y="263" font-size="24" font-weight="700" fill="#0f172a">2. Review and Triage</text>
+<rect x="350" y="335" width="500" height="105" rx="18" fill="#fff7ed" stroke="#ea580c" stroke-width="4"/><text x="600" y="378" font-size="24" font-weight="700" fill="#0f172a">3. Investigate and Take Action</text><text x="600" y="414" font-size="18" fill="#475569">AD Tools • PowerShell • Group Policy • Server Tools</text>
+<rect x="400" y="482" width="400" height="78" rx="18" fill="#ecfdf5" stroke="#16a34a" stroke-width="4"/><text x="600" y="530" font-size="24" font-weight="700" fill="#0f172a">4. Test and Verify</text>
+<rect x="85" y="625" width="440" height="82" rx="18" fill="#f5f3ff" stroke="#7c3aed" stroke-width="4"/><text x="305" y="675" font-size="22" font-weight="700" fill="#0f172a">5. Update Ticket and Communicate</text>
+<rect x="675" y="625" width="440" height="82" rx="18" fill="#ecfdf5" stroke="#16a34a" stroke-width="4"/><text x="895" y="675" font-size="22" font-weight="700" fill="#0f172a">6. Resolve and Close</text>
+</g>
+<path d="M600 173V200M600 293V320M600 440V467M600 560V600H305V610M525 666H655" stroke="#64748b" stroke-width="5" fill="none" marker-end="url(#a)"/>
+</svg>
