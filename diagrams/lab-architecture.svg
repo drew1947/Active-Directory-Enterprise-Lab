@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">BWA Stay Hotel Lab Architecture</title>
+<desc id="desc">VirtualBox hosts Windows Server 2025 and a domain-joined Windows 11 client. The server provides Active Directory, DNS, Group Policy, file services, and IIS.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#64748b"/></marker></defs>
+<rect width="1200" height="620" rx="28" fill="#f8fafc"/>
+<text x="50" y="58" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#0f172a">BWA Stay Hotel Lab Architecture</text>
+<rect x="45" y="95" width="1110" height="475" rx="25" fill="#fff" stroke="#94a3b8" stroke-width="3" stroke-dasharray="10 8"/>
+<text x="75" y="140" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#334155">VirtualBox Host Environment</text>
+<rect x="105" y="185" width="405" height="300" rx="22" fill="#eff6ff" stroke="#2563eb" stroke-width="4"/>
+<text x="307" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#0f172a">Windows Server 2025</text>
+<text x="307" y="270" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#475569">Domain Controller • lab.local</text>
+<rect x="155" y="310" width="305" height="125" rx="16" fill="#f5f3ff" stroke="#7c3aed" stroke-width="3"/>
+<text x="307" y="350" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#0f172a">Server Services</text>
+<text x="307" y="385" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#334155">AD DS • DNS • Group Policy</text>
+<text x="307" y="416" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#334155">File Services • IIS</text>
+<rect x="700" y="210" width="390" height="250" rx="22" fill="#ecfdf5" stroke="#16a34a" stroke-width="4"/>
+<text x="895" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#0f172a">Windows 11 Client</text>
+<text x="895" y="298" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#334155">Joined to lab.local</text>
+<text x="895" y="344" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#475569">Domain login and access testing</text>
+<text x="895" y="378" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#475569">Policy and permission verification</text>
+<text x="895" y="412" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#475569">Ticket-resolution testing</text>
+<path d="M510 300H678" stroke="#64748b" stroke-width="5" fill="none" marker-end="url(#a)"/>
+<path d="M700 390H532" stroke="#64748b" stroke-width="5" fill="none" marker-end="url(#a)"/>
+<text x="605" y="278" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#475569">Authentication • DNS • Policies • Shares</text>
+<text x="615" y="425" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#475569">Testing and Verification</text>
+</svg>
