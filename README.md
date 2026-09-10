@@ -1,12 +1,52 @@
-# Active Directory Enterprise Lab
+# BWA Stay Hotel — Active Directory Enterprise Lab
+
+> A hands-on simulation of the computer system an IT team would manage for a real hotel.
+
+## Welcome
+
+I am building practical IT and cybersecurity skills by creating working labs instead of only reading about the technology.
+
+For this project, I created a fictional business called **BWA Stay Hotel**. I built its Windows network, organized employee accounts, controlled who could access different folders, applied security rules, handled help-desk requests, and documented how I solved problems.
+
+**In simple terms:** I practiced being the person responsible for keeping a company's employees, computers, accounts, and access working safely.
+
+## What I Built — In Plain English
+
+| A real workplace needs… | What I built and practiced |
+|---|---|
+| One system for employee accounts | An Active Directory domain called `lab.local` |
+| Organized departments | Hotel departments including Front Desk, Housekeeping, HR, IT, Management, Security, and others |
+| The correct access for each employee | Security groups and folder permissions based on job roles |
+| Safe sign-ins | Password rules, account lockouts, and login auditing |
+| Computers connected to the company network | A Windows 11 computer joined to the domain |
+| Help when something breaks | Jira and Spiceworks support tickets with documented solutions |
+| Faster, repeatable administration | PowerShell commands for viewing, creating, and checking changes |
+| Proof that fixes worked | Screenshots, verification steps, and troubleshooting case studies |
+
+## A Quick Visual Tour
+
+This is the lab I created inside VirtualBox:
+
+![BWA Stay Hotel lab architecture](diagrams/lab-architecture.svg)
+
+The **Windows Server 2025** machine acts as the hotel's central IT system. The **Windows 11** machine acts like an employee's work computer. I used the client computer to test logins, access, policies, and fixes from the employee's point of view.
+
+![BWA Stay Hotel lab environment](screenshots/lab-environment.png)
+
+## Good Places to Start
+
+- [See how I handled help-desk tickets](help-desk-tickets/README.md)
+- [See how I found and corrected a folder-permission problem](help-desk-tickets/department-folder-permissions.md)
+- [See how I configured security auditing](documentation/security-auditing.md)
+- Continue below for the complete technical walkthrough and evidence.
+
+---
 
 ## Project Overview
 
 I built this home lab to get real practice with Active Directory and the kind of work I would be doing in an IT support or system administration job.
 
-For the lab, I created a fictional company called BWA Stay Hotel. I used it to practice managing users, groups, permissions, support tickets, and common problems that can happen in a Windows domain.
-
-My main goal was to understand how everything works together by actually doing the work instead of only reading about it.
+My goal was to understand how the pieces work together by actually doing the work: setting up users, managing access, troubleshooting problems, verifying fixes, and documenting the results.
 
 ## Lab Environment
 
@@ -15,11 +55,7 @@ My main goal was to understand how everything works together by actually doing t
 | Windows Server 2025 | Used as the domain controller and hosted the main server services |
 | Windows 11 | Used as the client computer for logins and testing |
 | VirtualBox | Used to create and run both virtual machines |
-| lab.local | Used as the Active Directory domain |
-
-![BWA Stay Hotel lab architecture](diagrams/lab-architecture.svg)
-
-![BWA Stay Hotel lab environment](screenshots/lab-environment.png)
+| `lab.local` | Used as the Active Directory domain |
 
 The Server Manager dashboard shows the roles and services I installed for the lab.
 
@@ -27,17 +63,17 @@ The Server Manager dashboard shows the roles and services I installed for the la
 
 ## Active Directory Administration
 
-I used Active Directory Users and Computers to practice tasks that come up in IT support.
+I used Active Directory Users and Computers to practice tasks that come up in IT support:
 
-* Creating user accounts
-* Resetting passwords
-* Unlocking accounts
-* Adding users to security groups
-* Changing access when someone changes roles
-* Disabling accounts
-* Checking my work after making changes
+- Creating user accounts
+- Resetting passwords
+- Unlocking accounts
+- Adding users to security groups
+- Changing access when someone changes roles
+- Disabling accounts
+- Checking my work after making changes
 
-I kept disabled accounts in a separate OU. This lets me keep the account for records without leaving it active.
+I kept disabled accounts in a separate Organizational Unit (OU). This preserves the accounts for records without leaving them active.
 
 ![Disabled user accounts in Active Directory](screenshots/disabled-users-ou.png)
 
@@ -69,11 +105,11 @@ I used PowerShell along with Active Directory Users and Computers. I started by 
 
 Some of the tasks I practiced were:
 
-* Viewing Organizational Units
-* Creating Organizational Units
-* Checking changes I made
-* Viewing users and groups
-* Reading cmdlets, parameters, and values
+- Viewing Organizational Units
+- Creating Organizational Units
+- Checking changes I made
+- Viewing users and groups
+- Reading cmdlets, parameters, and values
 
 I am still building my PowerShell skills because I want to understand the commands instead of only copying scripts.
 
@@ -109,17 +145,17 @@ I backed up the Group Policy Objects so the settings can be restored if a policy
 
 ![Group Policy backup completed](screenshots/group-policy/gpo-backup.png)
 
-I also used Group Policy to manage settings for domain users and computers. One of the policies I worked on was a company wallpaper for the Windows 11 client. When it did not apply correctly, I had to go back through the settings and troubleshoot it.
+I also used Group Policy to manage settings for domain users and computers. One of the policies I worked on was a company wallpaper for the Windows 11 client. When it did not apply correctly, I went back through the settings and troubleshot it.
 
 ## DNS Configuration
 
-I used DNS Manager to review the records in the lab.local zone. The zone includes records for the domain controller, Windows client, and internal website.
+I used DNS Manager to review the records in the `lab.local` zone. The zone includes records for the domain controller, Windows client, and internal website.
 
 ![DNS records for lab.local](screenshots/dns/lab-local-zone.png)
 
 ## Security Auditing
 
-I configured the domain controller to record successful and failed logins, credential checks, user account changes, and security group changes.
+I configured the domain controller to record successful and failed logins, credential checks, user-account changes, and security-group changes.
 
 [View my Security Auditing documentation](documentation/security-auditing.md)
 
@@ -127,7 +163,7 @@ I configured the domain controller to record successful and failed logins, crede
 
 Not everything worked the first time. I had to troubleshoot PowerShell errors, Active Directory changes, login issues, DNS problems, Group Policy, and folder permissions.
 
-When something went wrong, I checked the settings, looked at what I changed, tested possible fixes, and then made sure the final result worked.
+When something went wrong, I checked the settings, reviewed what changed, tested possible fixes, and confirmed that the final result worked.
 
 ![BWA Stay Hotel troubleshooting process](diagrams/troubleshooting-process.svg)
 
@@ -141,31 +177,31 @@ When something went wrong, I checked the settings, looked at what I changed, tes
 | PowerShell | Completed and checked administrative tasks |
 | Group Policy | Managed settings for domain users and computers |
 | Jira Service Management | Tracked simulated support requests |
-| Spiceworks | Practiced help desk ticket management |
+| Spiceworks | Practiced help-desk ticket management |
 | VirtualBox | Created and ran the virtual machines |
 | DNS | Handled name resolution for the domain |
 | IIS | Hosted and tested an internal website |
 
 ## Skills Practiced
 
-* Active Directory user management
-* Organizational Units and security groups
-* Password resets and account unlocking
-* User setup and account disabling
-* Access and permission management
-* Windows Server administration
-* Windows domain testing
-* Help desk ticket handling
-* PowerShell fundamentals
-* Group Policy
-* File shares and NTFS permissions
-* DNS and connectivity troubleshooting
-* Testing and documenting my work
+- Active Directory user management
+- Organizational Units and security groups
+- Password resets and account unlocking
+- User setup and account disabling
+- Access and permission management
+- Windows Server administration
+- Windows domain testing
+- Help-desk ticket handling
+- PowerShell fundamentals
+- Group Policy
+- File shares and NTFS permissions
+- DNS and connectivity troubleshooting
+- Testing and documenting my work
 
 ## What I Learned
 
 This lab helped me see how Active Directory, Windows Server, a client computer, permissions, and support tickets connect to each other.
 
-I became more comfortable creating users, organizing accounts, managing access, and checking changes from a Windows 11 client. I also learned that troubleshooting is a big part of the work. When something does not work, I have to slow down, check the setup, test possible causes, and confirm the fix.
+I became more comfortable creating users, organizing accounts, managing access, and checking changes from a Windows 11 client. I also learned that troubleshooting is a major part of the work: slow down, check the setup, test possible causes, and confirm the fix.
 
-PowerShell also showed me why it is important to understand what a command is doing. Jira and Spiceworks helped me connect the technical work to the way a support request would be handled from start to finish.
+PowerShell showed me why it is important to understand what a command is doing. Jira and Spiceworks helped me connect the technical work to the way a support request would be handled from start to finish.
